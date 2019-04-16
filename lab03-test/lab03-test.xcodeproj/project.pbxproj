@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1572E1282265F67400AF9DA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1572E1272265F67400AF9DA4 /* main.cpp */; };
+		1572E1302265F6B000AF9DA4 /* histogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1572E12F2265F6B000AF9DA4 /* histogram.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1572E1242265F67400AF9DA4 /* lab03-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lab03-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1572E1272265F67400AF9DA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1572E12E2265F6B000AF9DA4 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = histogram.h; path = ../../lab003/histogram.h; sourceTree = "<group>"; };
+		1572E12F2265F6B000AF9DA4 /* histogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = histogram.cpp; path = ../../lab003/histogram.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		1572E1262265F67400AF9DA4 /* lab03-test */ = {
 			isa = PBXGroup;
 			children = (
+				1572E12F2265F6B000AF9DA4 /* histogram.cpp */,
+				1572E12E2265F6B000AF9DA4 /* histogram.h */,
 				1572E1272265F67400AF9DA4 /* main.cpp */,
 			);
 			path = "lab03-test";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1572E1302265F6B000AF9DA4 /* histogram.cpp in Sources */,
 				1572E1282265F67400AF9DA4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

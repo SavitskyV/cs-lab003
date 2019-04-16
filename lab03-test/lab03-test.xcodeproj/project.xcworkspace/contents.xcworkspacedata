@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/macbookpro/Desktop/lab003/lab03-test/lab03-test/test.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../lab03-test/test.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../lab03-test/test.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../lab003/histogram.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../lab003/histogram.h">
+   </FileRef>
+   <FileRef
       location = "self:lab03-test.xcodeproj">
    </FileRef>
 </Workspace>
