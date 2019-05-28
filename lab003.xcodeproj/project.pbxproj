@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154C9B74229D27F400266B35 /* svg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154C9B72229D27F400266B35 /* svg.cpp */; };
 		1572E11222659ECA00AF9DA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1572E11122659ECA00AF9DA4 /* main.cpp */; };
 		1572E11A2265F56C00AF9DA4 /* histogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1572E1192265F56C00AF9DA4 /* histogram.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		154C9B6E229D121800266B35 /* lab003 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lab003; sourceTree = "<group>"; };
+		154C9B72229D27F400266B35 /* svg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = svg.cpp; sourceTree = "<group>"; };
+		154C9B75229D280600266B35 /* svg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = svg.h; sourceTree = "<group>"; };
+		154C9B76229D280D00266B35 /* lab003 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lab003; sourceTree = "<group>"; };
 		1572E10E22659ECA00AF9DA4 /* lab003 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab003; sourceTree = BUILT_PRODUCTS_DIR; };
 		1572E11122659ECA00AF9DA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1572E1182265F4A400AF9DA4 /* histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
@@ -45,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				1572E11022659ECA00AF9DA4 /* lab003 */,
+				154C9B6E229D121800266B35 /* lab003 */,
+				154C9B76229D280D00266B35 /* lab003 */,
 				1572E10F22659ECA00AF9DA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,9 +67,11 @@
 		1572E11022659ECA00AF9DA4 /* lab003 */ = {
 			isa = PBXGroup;
 			children = (
+				154C9B75229D280600266B35 /* svg.h */,
 				1572E11122659ECA00AF9DA4 /* main.cpp */,
 				1572E1182265F4A400AF9DA4 /* histogram.h */,
 				1572E1192265F56C00AF9DA4 /* histogram.cpp */,
+				154C9B72229D27F400266B35 /* svg.cpp */,
 			);
 			path = lab003;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154C9B74229D27F400266B35 /* svg.cpp in Sources */,
 				1572E11A2265F56C00AF9DA4 /* histogram.cpp in Sources */,
 				1572E11222659ECA00AF9DA4 /* main.cpp in Sources */,
 			);
